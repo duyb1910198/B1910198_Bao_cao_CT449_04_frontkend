@@ -48,10 +48,6 @@
         <div class="t-menu-left-bt col-3"></div>
         <div class="t-menu-right col-8">
                 <div v-if="activePost">
-                    <!-- <h4>
-                        Chi tiết Truyện
-                        <i class="fas fa-address-card"></i>
-                    </h4> -->
                     <PostCard :post="activePost" />
                     <div class="float-right">
                         <router-link

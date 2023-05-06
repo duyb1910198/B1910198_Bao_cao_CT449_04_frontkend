@@ -13,17 +13,6 @@ export default {
 };
 </script>
 <template>
-    <!-- <ul class="list-group">
-        <li
-            class="list-group-item"
-            v-for="(post, index) in posts"
-            :key="post._id"
-            :class="{ active: index === activeIndex }"
-            @click="updateActiveIndex(index)"
-        >
-            {{ post.title }}
-        </li>
-    </ul> -->
 <div class="">
     <div class="row d-flex">
         <div class="card m-2 text-success" style="width: 16rem;"
@@ -35,7 +24,6 @@ export default {
             <img class="card-img-top img-fluid" :src="post.image" alt="Card image cap">
             <div class="card-body">
             <h5 class="card-title">
-                <!-- <strong>Tên truyện:</strong> -->
                 {{ post.title }}</h5>
             <p class="card-text">
                 <strong ><i class="fa-solid fa-user"></i> Tác giả:</strong>
@@ -47,7 +35,6 @@ export default {
                      Hoàn thành&nbsp;</strong>
 
             </p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
         </div>
     </div>

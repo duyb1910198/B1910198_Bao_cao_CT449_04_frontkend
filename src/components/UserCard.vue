@@ -14,8 +14,6 @@ export default {
             </router-link>
             <i v-else class="fa-regular fa-circle-xmark text-danger"></i>
 
-            <!-- <i v-if="user.favorite" class="fa-solid fa-circle-check"></i>
-            </i> -->
         </div>
     </div>
 </template>

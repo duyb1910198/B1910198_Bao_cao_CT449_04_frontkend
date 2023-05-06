@@ -54,16 +54,4 @@ export default {
         </tbody>
     </table> <hr>
 
-
-    <!-- <ul class="list-group">
-        <li
-            class="list-group-item"
-            v-for="(user, index) in users"
-            :key="user._id"
-            :class="{ active: index === activeIndex }"
-            @click="updateActiveIndex(index)"
-        >
-            {{ user.name }}
-        </li>
-    </ul> -->
 </template>
